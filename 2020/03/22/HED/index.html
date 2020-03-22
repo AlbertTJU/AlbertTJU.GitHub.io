@@ -104,14 +104,10 @@
 </li>
 <li><p>论文源码：【caffe版本】<a href="https://github.com/s9xie/hed" target="_blank" rel="noopener">https://github.com/s9xie/hed</a></p>
 <p>​                   【pytorch版本】<a href="https://github.com/xwjabc/hed" target="_blank" rel="noopener">https://github.com/xwjabc/hed</a></p>
-<a id="more"></a>
-
-
-
 </li>
 </ul>
 <p>##HED模型简介</p>
-<p>本文是屠卓文教授于2015年的工作，通过整体嵌套的思想，提出了一个端到端的网络，大大提升了边缘检测的效果，与以往边缘检测算法不同的是，HED整体嵌套边缘检测，通过深度学习执行图像到图像的预测，该模型利用全卷积神经网络和深度监督网络，自动学习丰富的层次表示，对于解决边缘和对象边界检测中的挑战模糊性是重要的。也正是因为如此，HED框架是边缘检测领域的分水岭。</p>
+<p>本文是屠卓文教授于2015年的工作，通过整体嵌套的思想，提出了一个端到端的网络，大大提升了边缘检测的效果，与以往边缘检测算法不同的是，HED整体嵌套边缘检测，通过深度学习执行图像到图像的预测，该模型利用全卷积神经网络和深度监督网络，自动学习丰富的层次表示，对于解决边缘和对象边界检测中的挑战模糊性是重要的。也正是因为如此，HED框架是边缘检测领域的分水岭。<a id="more"></a></p>
 <h2 id="网络结构"><a href="#网络结构" class="headerlink" title="网络结构"></a>网络结构</h2><p>整体的结构见下图：<img src="/.com//C:%5CUsers%5C%E5%AD%A6%E7%94%9F%E5%B0%BC%E5%85%8B%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200322151501036.png" alt="image-20200322151501036"></p>
 <ol>
 <li>采用VGG-16作为主干网络，对图片特征进行提取，并且删掉了VGG最后一个stage，包括五个池化层和所有的全连接层。</li>
