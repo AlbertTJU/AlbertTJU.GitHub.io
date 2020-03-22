@@ -1,6 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>《HED论文阅读笔记》</title>
+    <url>/2020/03/22/HED/</url>
+    <content><![CDATA[<ul>
+<li><p>论文地址：<a href="https://arxiv.org/pdf/1504.06375" target="_blank" rel="noopener">https://arxiv.org/pdf/1504.06375</a></p>
+</li>
+<li><p>论文源码：【caffe版本】<a href="https://github.com/s9xie/hed" target="_blank" rel="noopener">https://github.com/s9xie/hed</a></p>
+<p>​                   【pytorch版本】<a href="https://github.com/xwjabc/hed" target="_blank" rel="noopener">https://github.com/xwjabc/hed</a></p>
+<a id="more"></a>
+
+</li>
+</ul>
+<p>##HED模型简介</p>
+<p>本文是屠卓文教授于2015年的工作，通过整体嵌套的思想，提出了一个端到端的网络，大大提升了边缘检测的效果，与以往边缘检测算法不同的是，HED整体嵌套边缘检测，通过深度学习执行图像到图像的预测，该模型利用全卷积神经网络和深度监督网络，自动学习丰富的层次表示，对于解决边缘和对象边界检测中的挑战模糊性是重要的。也正是因为如此，HED框架是边缘检测领域的分水岭。</p>
+<h2 id="网络结构"><a href="#网络结构" class="headerlink" title="网络结构"></a>网络结构</h2><p>整体的结构见下图：<img src="C:%5CUsers%5C%E5%AD%A6%E7%94%9F%E5%B0%BC%E5%85%8B%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200322151501036.png" alt="image-20200322151501036"></p>
+<ol>
+<li>采用VGG-16作为主干网络，对图片特征进行提取。</li>
+<li>在卷积层后插入输出层side-output，并且在side-output上采用深度监督机制，使得结果向具有期望的特征边缘检测方向进行。</li>
+<li>将side-output结果进行上采样，主要是双线性插值，将图片恢复到input size大小。</li>
+<li>最后通过加权融合层得到最终的输出。</li>
+</ol>
+<h2 id="损失函数"><a href="#损失函数" class="headerlink" title="损失函数"></a>损失函数</h2><p>鉴于边缘像素的分布不均的特点（一幅图上边缘像素与非边缘像素的比值大概为1:9），本文提出了一种新的loss，用来解决样本分布不平衡所带来的问题。<img src="C:%5CUsers%5C%E5%AD%A6%E7%94%9F%E5%B0%BC%E5%85%8B%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200322152311712.png" alt="image-20200322152311712"></p>
+<p>其中：<img src="C:%5CUsers%5C%E5%AD%A6%E7%94%9F%E5%B0%BC%E5%85%8B%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200322152341580.png" alt="image-20200322152341580"></p>
+<p>代表边缘像素占所有像素的比例，</p>
+]]></content>
+      <categories>
+        <category>论文</category>
+      </categories>
+      <tags>
+        <tag>edge detection</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hello World</title>
     <url>/2020/03/22/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
