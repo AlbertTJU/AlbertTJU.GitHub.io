@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-03-22T09:36:03.137Z</updated>
+  <updated>2020-03-22T12:22:42.455Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,30 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>HED</title>
+    <title>RCF论文阅读笔记</title>
+    <link href="http://yoursite.com/2020/03/22/RCF/"/>
+    <id>http://yoursite.com/2020/03/22/RCF/</id>
+    <published>2020-03-22T12:21:52.000Z</published>
+    <updated>2020-03-22T12:22:42.455Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+      <category term="论文" scheme="http://yoursite.com/categories/%E8%AE%BA%E6%96%87/"/>
+    
+    
+      <category term="edge detection" scheme="http://yoursite.com/tags/edge-detection/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HED论文阅读笔记</title>
     <link href="http://yoursite.com/2020/03/22/HED/"/>
     <id>http://yoursite.com/2020/03/22/HED/</id>
     <published>2020-03-22T06:57:14.000Z</published>
-    <updated>2020-03-22T09:36:03.137Z</updated>
+    <updated>2020-03-22T12:21:32.234Z</updated>
     
     <summary type="html">
     
