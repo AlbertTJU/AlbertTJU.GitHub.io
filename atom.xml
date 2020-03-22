@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-03-22T08:31:49.650Z</updated>
+  <updated>2020-03-22T08:33:04.992Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/2020/03/22/HED/"/>
     <id>http://yoursite.com/2020/03/22/HED/</id>
     <published>2020-03-22T06:57:14.000Z</published>
-    <updated>2020-03-22T08:31:49.650Z</updated>
+    <updated>2020-03-22T08:33:04.992Z</updated>
     
     <summary type="html">
     
@@ -29,7 +29,7 @@
 &lt;li&gt;&lt;p&gt;论文地址：&lt;a href=&quot;https://arxiv.org/pdf/1504.06375&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://arxiv.org/pdf/1504.06375&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;论文源码：【caffe版本】&lt;a href=&quot;https://github.com/s9xie/hed&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/s9xie/hed&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;​                   【pytorch版本】&lt;a href=&quot;https://github.com/xwjabc/hed&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/xwjabc/hed&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;​                   【pytorch版本】&lt;a href=&quot;https://github.com/xwjabc/hed&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/xwjabc/hed&lt;/a&gt;
     
     </summary>
     
