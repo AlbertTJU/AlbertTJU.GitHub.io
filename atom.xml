@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-03-22T08:29:58.817Z</updated>
+  <updated>2020-03-22T08:31:49.650Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/2020/03/22/HED/"/>
     <id>http://yoursite.com/2020/03/22/HED/</id>
     <published>2020-03-22T06:57:14.000Z</published>
-    <updated>2020-03-22T08:29:58.817Z</updated>
+    <updated>2020-03-22T08:31:49.650Z</updated>
     
     <summary type="html">
     
@@ -37,7 +37,7 @@
       <category term="论文" scheme="http://yoursite.com/categories/%E8%AE%BA%E6%96%87/"/>
     
     
-      <category term="deep learning" scheme="http://yoursite.com/tags/deep-learning/"/>
+      <category term="edge detection" scheme="http://yoursite.com/tags/edge-detection/"/>
     
   </entry>
   
