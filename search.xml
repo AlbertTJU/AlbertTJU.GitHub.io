@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>LeetCode面试题16.19——水域大小</title>
+    <url>/2020/10/21/LeetCode%E9%9D%A2%E8%AF%95%E9%A2%9816-19%E2%80%94%E2%80%94%E6%B0%B4%E5%9F%9F%E5%A4%A7%E5%B0%8F/</url>
+    <content><![CDATA[<br>
+
+<h2 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h2><p><img src="/2020/10/21/LeetCode%E9%9D%A2%E8%AF%95%E9%A2%9816-19%E2%80%94%E2%80%94%E6%B0%B4%E5%9F%9F%E5%A4%A7%E5%B0%8F/LeetCode%E9%9D%A2%E8%AF%95%E9%A2%9816-19%E2%80%94%E2%80%94%E6%B0%B4%E5%9F%9F%E5%A4%A7%E5%B0%8F.png" alt></p>
+]]></content>
+      <categories>
+        <category>刷题</category>
+      </categories>
+      <tags>
+        <tag>algorithm</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>关于桶排序</title>
     <url>/2020/03/30/%E5%85%B3%E4%BA%8E%E6%A1%B6%E6%8E%92%E5%BA%8F/</url>
     <content><![CDATA[<br>
