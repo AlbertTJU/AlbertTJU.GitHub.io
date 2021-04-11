@@ -81,16 +81,20 @@
     <link href="http://yoursite.com/2020/03/22/RCF/"/>
     <id>http://yoursite.com/2020/03/22/RCF/</id>
     <published>2020-03-22T12:21:52.000Z</published>
-    <updated>2020-03-23T13:52:09.770Z</updated>
+    <updated>2021-04-11T02:34:54.612Z</updated>
     
     <summary type="html">
     
-      &lt;br&gt;
+      &lt;ul&gt;
+&lt;li&gt;论文地址：&lt;/li&gt;
+&lt;li&gt;论文源码：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
 
 &lt;br&gt;
 
 &lt;p&gt;##RCF简介&lt;/p&gt;
-&lt;p&gt;RCF是南开大学程明明课题组的一项工作，他们在基于HED网络的基础之上，使用来自所有卷积层的特征，并且提出了一种新的损失函数，就是一点小小的改进，却导致了效果大大提升，充分印证了那句话——“大道至简”。&lt;/p&gt;
+&lt;p&gt;RCF是南开大学程明明课题组的一项工作，他们在基于HED网络的基础之上，使用来自所有卷积层的特征，并且改进了现有的加权交叉熵损失函数，最终取得了不错的结果。&lt;/p&gt;
     
     </summary>
     
