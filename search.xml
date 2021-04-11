@@ -72,14 +72,18 @@
     <url>/2020/03/22/HED/</url>
     <content><![CDATA[<ul>
 <li>论文地址：<a href="https://arxiv.org/pdf/1504.06375" target="_blank" rel="noopener">https://arxiv.org/pdf/1504.06375</a></li>
-<li>论文源码：【caffe版本】<a href="https://github.com/s9xie/hed" target="_blank" rel="noopener">https://github.com/s9xie/hed</a> 【pytorch版本】<a href="https://github.com/xwjabc/hed" target="_blank" rel="noopener">https://github.com/xwjabc/hed</a></li>
+<li>论文源码：<ul>
+<li>【caffe版本】<a href="https://github.com/s9xie/hed" target="_blank" rel="noopener">https://github.com/s9xie/hed</a></li>
+<li>【pytorch版本】<a href="https://github.com/xwjabc/hed" target="_blank" rel="noopener">https://github.com/xwjabc/hed</a></li>
+</ul>
+</li>
 </ul>
 <br>
 
 <br>
 
 <p><strong>HED简介</strong></p>
-<p>本文是屠卓文教授于2015年的工作，通过整体嵌套的思想，提出了一个端到端的网络，大大提升了边缘检测的效果，与以往边缘检测算法不同的是，HED整体嵌套边缘检测，通过深度学习执行图像到图像的预测，该模型利用全卷积神经网络和深度监督网络，自动学习丰富的层次表示，对于解决边缘和对象边界检测中的挑战模糊性是重要的。也正是因为如此，HED框架是边缘检测领域的分水岭。<a id="more"></a></p>
+<p>本文是屠卓文课题组于2015年的工作，通过多尺度融合的思想，提出了一个端到端的网络，大大提升了边缘检测的效果。与以往边缘检测算法不同的是，HED通过深度学习执行图像到图像的预测，该模型利用全卷积神经网络（VGG-16）和深度监督机制，自动学习丰富的层次表示，对于解决边缘和对象边界检测中的挑战模糊性是重要的。HED是第一个利用图片整体特征的边缘检测算法，具有开创性意义。<a id="more"></a></p>
 <h2 id="网络结构"><a href="#网络结构" class="headerlink" title="网络结构"></a>网络结构</h2><p>整体的结构见下图：<img src="/2020/03/22/HED/image-20200322151501036.png" alt></p>
 <ol>
 <li>采用VGG-16作为主干网络，对图片特征进行提取，并且删掉了VGG最后一个stage，包括五个池化层和所有的全连接层。</li>
@@ -97,8 +101,8 @@
 <p><img src="/2020/03/22/HED/image-20200322161519767.png" alt="image-20200322161519767"></p>
 <h2 id="可以改进的措施"><a href="#可以改进的措施" class="headerlink" title="可以改进的措施"></a>可以改进的措施</h2><ul>
 <li>HED只利用了每个stage最后一个卷积层的特征，并没有充分利用所有的特征。（这在之后的RCF可以明显看出）</li>
-<li>并没有显式的引用上下文的信息</li>
-<li>得到的边缘图比较粗，不够精细</li>
+<li>并没有显式的利用上下文的信息</li>
+<li>得到的边缘图比较粗糙，不够精细</li>
 </ul>
 <br>
 

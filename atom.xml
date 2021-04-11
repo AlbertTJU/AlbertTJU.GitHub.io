@@ -111,20 +111,24 @@
     <link href="http://yoursite.com/2020/03/22/HED/"/>
     <id>http://yoursite.com/2020/03/22/HED/</id>
     <published>2020-03-22T06:57:14.000Z</published>
-    <updated>2021-04-11T02:42:52.797Z</updated>
+    <updated>2021-04-11T02:48:43.086Z</updated>
     
     <summary type="html">
     
       &lt;ul&gt;
 &lt;li&gt;论文地址：&lt;a href=&quot;https://arxiv.org/pdf/1504.06375&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://arxiv.org/pdf/1504.06375&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;论文源码：【caffe版本】&lt;a href=&quot;https://github.com/s9xie/hed&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/s9xie/hed&lt;/a&gt; 【pytorch版本】&lt;a href=&quot;https://github.com/xwjabc/hed&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/xwjabc/hed&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;论文源码：&lt;ul&gt;
+&lt;li&gt;【caffe版本】&lt;a href=&quot;https://github.com/s9xie/hed&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/s9xie/hed&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;【pytorch版本】&lt;a href=&quot;https://github.com/xwjabc/hed&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/xwjabc/hed&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;br&gt;
 
 &lt;br&gt;
 
 &lt;p&gt;&lt;strong&gt;HED简介&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;本文是屠卓文教授于2015年的工作，通过整体嵌套的思想，提出了一个端到端的网络，大大提升了边缘检测的效果，与以往边缘检测算法不同的是，HED整体嵌套边缘检测，通过深度学习执行图像到图像的预测，该模型利用全卷积神经网络和深度监督网络，自动学习丰富的层次表示，对于解决边缘和对象边界检测中的挑战模糊性是重要的。也正是因为如此，HED框架是边缘检测领域的分水岭。&lt;/p&gt;
+&lt;p&gt;本文是屠卓文课题组于2015年的工作，通过多尺度融合的思想，提出了一个端到端的网络，大大提升了边缘检测的效果。与以往边缘检测算法不同的是，HED通过深度学习执行图像到图像的预测，该模型利用全卷积神经网络（VGG-16）和深度监督机制，自动学习丰富的层次表示，对于解决边缘和对象边界检测中的挑战模糊性是重要的。HED是第一个利用图片整体特征的边缘检测算法，具有开创性意义。&lt;/p&gt;
     
     </summary>
     
