@@ -111,15 +111,13 @@
     <link href="http://yoursite.com/2020/03/22/HED/"/>
     <id>http://yoursite.com/2020/03/22/HED/</id>
     <published>2020-03-22T06:57:14.000Z</published>
-    <updated>2021-04-11T02:39:44.913Z</updated>
+    <updated>2021-04-11T02:42:52.797Z</updated>
     
     <summary type="html">
     
       &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;论文地址：&lt;a href=&quot;https://arxiv.org/pdf/1504.06375&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://arxiv.org/pdf/1504.06375&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;论文源码：【caffe版本】&lt;a href=&quot;https://github.com/s9xie/hed【pytorch版本】https://github.com/xwjabc/hed&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/s9xie/hed【pytorch版本】https://github.com/xwjabc/hed&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;论文地址：&lt;a href=&quot;https://arxiv.org/pdf/1504.06375&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://arxiv.org/pdf/1504.06375&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;论文源码：【caffe版本】&lt;a href=&quot;https://github.com/s9xie/hed&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/s9xie/hed&lt;/a&gt; 【pytorch版本】&lt;a href=&quot;https://github.com/xwjabc/hed&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/xwjabc/hed&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;br&gt;
 
