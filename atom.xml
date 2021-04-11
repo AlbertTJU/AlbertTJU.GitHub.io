@@ -81,7 +81,7 @@
     <link href="http://yoursite.com/2020/03/22/RCF/"/>
     <id>http://yoursite.com/2020/03/22/RCF/</id>
     <published>2020-03-22T12:21:52.000Z</published>
-    <updated>2021-04-11T02:34:54.612Z</updated>
+    <updated>2021-04-11T02:39:53.220Z</updated>
     
     <summary type="html">
     
@@ -93,7 +93,7 @@
 
 &lt;br&gt;
 
-&lt;p&gt;##RCF简介&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;RCF简介&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;RCF是南开大学程明明课题组的一项工作，他们在基于HED网络的基础之上，使用来自所有卷积层的特征，并且改进了现有的加权交叉熵损失函数，最终取得了不错的结果。&lt;/p&gt;
     
     </summary>
@@ -111,15 +111,14 @@
     <link href="http://yoursite.com/2020/03/22/HED/"/>
     <id>http://yoursite.com/2020/03/22/HED/</id>
     <published>2020-03-22T06:57:14.000Z</published>
-    <updated>2020-03-22T12:21:32.234Z</updated>
+    <updated>2021-04-11T02:39:44.913Z</updated>
     
     <summary type="html">
     
       &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;论文地址：&lt;a href=&quot;https://arxiv.org/pdf/1504.06375&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://arxiv.org/pdf/1504.06375&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;论文源码：【caffe版本】&lt;a href=&quot;https://github.com/s9xie/hed&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/s9xie/hed&lt;/a&gt; &lt;/p&gt;
-&lt;p&gt;​                    【pytorch版本】&lt;a href=&quot;https://github.com/xwjabc/hed&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/xwjabc/hed&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;论文源码：【caffe版本】&lt;a href=&quot;https://github.com/s9xie/hed【pytorch版本】https://github.com/xwjabc/hed&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/s9xie/hed【pytorch版本】https://github.com/xwjabc/hed&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;br&gt;
